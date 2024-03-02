@@ -1,0 +1,88 @@
+
+
+Request
+{
+  "origins": [
+    {
+      "lat": 55.93,
+      "lng": -3.118
+    },
+    "Greenwich, England"
+  ],
+  "destinations": [
+    "Stockholm, Sweden",
+    {
+      "lat": 50.087,
+      "lng": 14.421
+    }
+  ],
+  "travelMode": "DRIVING",
+  "unitSystem": 0,
+  "avoidHighways": false,
+  "avoidTolls": false
+}
+Response
+{
+  "rows": [
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "2,556 km",
+            "value": 2556461
+          },
+          "duration": {
+            "text": "1 day 4 hours",
+            "value": 102226
+          },
+          "status": "OK"
+        },
+        {
+          "distance": {
+            "text": "1,896 km",
+            "value": 1895532
+          },
+          "duration": {
+            "text": "20 hours 31 mins",
+            "value": 73851
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "1,916 km",
+            "value": 1916338
+          },
+          "duration": {
+            "text": "21 hours 37 mins",
+            "value": 77831
+          },
+          "status": "OK"
+        },
+        {
+          "distance": {
+            "text": "1,255 km",
+            "value": 1255410
+          },
+          "duration": {
+            "text": "13 hours 44 mins",
+            "value": 49456
+          },
+          "status": "OK"
+        }
+      ]
+    }
+  ],
+  "originAddresses": [
+    "5 Great Carleton Pl, Edinburgh EH16 4TX, UK",
+    "Greenwich, London, UK"
+  ],
+  "destinationAddresses": [
+    "Stockholm, Sweden",
+    "Staroměstské nám. 1/3, Staré Město, 110 00 Praha-Praha 1, Czechia"
+  ]
+}
